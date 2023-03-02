@@ -25,7 +25,7 @@ jobs:
       name: Build & push Docker image
       with:
         image: aseno/frappe-erpnext-health
-        tags: 1.0.0, latest
+        tags: 14.17.4, latest
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_HUB_NAME }}
